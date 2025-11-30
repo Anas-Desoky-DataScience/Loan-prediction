@@ -72,3 +72,4 @@ print("Precision:", precision_score(y_test, pred, pos_label='Y'))  # adjust labe
 print("Recall:", recall_score(y_test, pred, pos_label='Y'))
 print("F1 score:", f1_score(y_test, pred, pos_label='Y'))
 print("\nClassification report:\n", classification_report(y_test, pred))
+# End of code_ver.py
